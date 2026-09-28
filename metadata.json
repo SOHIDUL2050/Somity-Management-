@@ -1,0 +1,6 @@
+{
+  "name": "মরিয়ম সমিতি ম্যানেজমেন্ট সিস্টেম (MARIUM SAMITI MANAGEMENT SYSTEM)",
+  "description": "মরিয়ম কর্মজীবী সমবায় সমিতি লিঃ এর পূর্ণাঙ্গ রিয়েল-ডাটা সমবায় সমিতি ব্যবস্থাপনা সফটওয়্যার (সদস্য, সঞ্চয়, ডিপিএস, এফডিআর, ঋণ, ক্যাশ, ব্যাংক, অডিট ও এআই অ্যাসিস্ট্যান্ট)।",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

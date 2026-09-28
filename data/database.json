@@ -1,0 +1,364 @@
+{
+  "organization": {
+    "name": "মরিয়ম কর্মজীবী সমবায় সমিতি লিঃ",
+    "nameBn": "মরিয়ম কর্মজীবী সমবায় সমিতি লিঃ",
+    "registrationNo": "13621",
+    "founderChairman": "শহীদুল ইসলাম",
+    "officeAddress": "Al-Baraka Heights, Bayezid Link Road, Arefin Nagar, Bayezid Bostami, Chattogram",
+    "phone": "01781-593032",
+    "website": "mariumfoundationbd.com",
+    "establishedDate": "2018-01-01"
+  },
+  "branches": [
+    {
+      "id": "BR-101",
+      "code": "HQ-BAYEZID",
+      "name": "প্রধান কার্যালয় (হেড অফিস) - বায়েজিদ",
+      "nameBn": "প্রধান কার্যালয় (হেড অফিস) - বায়েজিদ",
+      "address": "Al-Baraka Heights, Bayezid Link Road, Arefin Nagar, Bayezid Bostami, Chattogram",
+      "managerName": "মো: আরিফুল ইসলাম",
+      "phone": "01781-593032",
+      "active": true,
+      "createdAt": "2026-09-28T12:10:03.380Z"
+    },
+    {
+      "id": "BR-102",
+      "code": "MURADPUR",
+      "name": "মুরাদপুর শাখা",
+      "nameBn": "মুরাদপুর শাখা",
+      "address": "মুরাদপুর মোড়, চট্টগ্রাম",
+      "managerName": "মো: কামাল উদ্দিন",
+      "phone": "01781-593033",
+      "active": true,
+      "createdAt": "2026-09-28T12:10:03.381Z"
+    },
+    {
+      "id": "BR-103",
+      "code": "BAHADURHAT",
+      "name": "বহদ্দারহাট শাখা",
+      "nameBn": "বহদ্দারহাট শাখা",
+      "address": "বহদ্দারহাট বাস টার্মিনাল সংলগ্ন, চট্টগ্রাম",
+      "managerName": "নাসরিন সুলতানা",
+      "phone": "01781-593034",
+      "active": true,
+      "createdAt": "2026-09-28T12:10:03.381Z"
+    }
+  ],
+  "officers": [
+    {
+      "id": "OFF-101",
+      "employeeId": "EMP-101",
+      "name": "মো: রাশেদুল হক",
+      "nameBn": "মো: রাশেদুল হক",
+      "designation": "ফিল্ড অফিসার (Field Officer)",
+      "branchId": "BR-101",
+      "area": "আরেফিন নগর ও বায়েজিদ লিংক রোড",
+      "mobile": "01711-223344",
+      "joiningDate": "2023-01-15",
+      "status": "active"
+    },
+    {
+      "id": "OFF-102",
+      "employeeId": "EMP-102",
+      "name": "তাসলিমা আক্তার",
+      "nameBn": "তাসলিমা আক্তার",
+      "designation": "সিনিয়র ফিল্ড অফিসার",
+      "branchId": "BR-101",
+      "area": "অক্সিজেন মোড় ও শীতলঝর্ণা",
+      "mobile": "01811-334455",
+      "joiningDate": "2023-03-01",
+      "status": "active"
+    },
+    {
+      "id": "OFF-103",
+      "employeeId": "EMP-103",
+      "name": "ফারজানা শারমিন",
+      "nameBn": "ফারজানা শারমিন",
+      "designation": "সিআরএম অফিসার (CRM Officer)",
+      "branchId": "BR-101",
+      "area": "হেড অফিস ডেস্ক",
+      "mobile": "01911-445566",
+      "joiningDate": "2023-05-10",
+      "status": "active"
+    },
+    {
+      "id": "OFF-104",
+      "employeeId": "EMP-104",
+      "name": "মো: মাহবুবুর রহমান",
+      "nameBn": "মো: মাহবুবুর রহমান",
+      "designation": "হিসাবরক্ষক (Accountant)",
+      "branchId": "BR-101",
+      "area": "হেড অফিস একাউন্টস",
+      "mobile": "01611-556677",
+      "joiningDate": "2022-11-01",
+      "status": "active"
+    }
+  ],
+  "users": [
+    {
+      "id": "USR-ADMIN",
+      "name": "শহীদুল ইসলাম (চেয়ারম্যান)",
+      "nameBn": "শহীদুল ইসলাম (চেয়ারম্যান)",
+      "username": "admin",
+      "role": "super_admin",
+      "email": "chairman@mariumfoundationbd.com",
+      "phone": "01781-593032"
+    },
+    {
+      "id": "USR-CHAIRMAN",
+      "name": "ম্যানেজমেন্ট / পরিচালনা পরিষদ",
+      "nameBn": "ম্যানেজমেন্ট / পরিচালনা পরিষদ",
+      "username": "management",
+      "role": "chairman",
+      "email": "management@mariumfoundationbd.com",
+      "phone": "01781-593032"
+    },
+    {
+      "id": "USR-ACC",
+      "name": "মো: মাহবুবুর রহমান (হিসাবরক্ষক)",
+      "nameBn": "মো: মাহবুবুর রহমান (হিসাবরক্ষক)",
+      "username": "accountant",
+      "role": "accountant",
+      "phone": "01611-556677",
+      "officerId": "OFF-104"
+    },
+    {
+      "id": "USR-BM",
+      "name": "মো: আরিফুল ইসলাম (শাখা ব্যবস্থাপক)",
+      "nameBn": "মো: আরিফুল ইসলাম (শাখা ব্যবস্থাপক)",
+      "username": "branch_manager",
+      "role": "branch_manager",
+      "branchId": "BR-101",
+      "phone": "01781-593032"
+    },
+    {
+      "id": "USR-FO",
+      "name": "মো: রাশেদুল হক (ফিল্ড অফিসার)",
+      "nameBn": "মো: রাশেদুল হক (ফিল্ড অফিসার)",
+      "username": "field_officer",
+      "role": "field_officer",
+      "officerId": "OFF-101",
+      "branchId": "BR-101",
+      "phone": "01711-223344"
+    },
+    {
+      "id": "USR-CRM",
+      "name": "ফারজানা শারমিন (সিআরএম অফিসার)",
+      "nameBn": "ফারজানা শারমিন (সিআরএম অফিসার)",
+      "username": "crm_officer",
+      "role": "crm_officer",
+      "officerId": "OFF-103",
+      "phone": "01911-445566"
+    },
+    {
+      "id": "USR-ENTRY",
+      "name": "ডাটা এন্ট্রি অপারেটর",
+      "nameBn": "ডাটা এন্ট্রি অপারেটর",
+      "username": "data_entry",
+      "role": "data_entry",
+      "phone": "01511-667788"
+    },
+    {
+      "id": "USR-AUDIT",
+      "name": "নিরীক্ষক কর্মকর্তা (Auditor)",
+      "nameBn": "নিরীক্ষক কর্মকর্তা (Auditor)",
+      "username": "auditor",
+      "role": "auditor",
+      "phone": "01311-778899"
+    },
+    {
+      "id": "USR-MEMBER",
+      "name": "সদস্য ডিজিটাল পাসবুক",
+      "nameBn": "সদস্য ডিজিটাল পাসবুক",
+      "username": "member",
+      "role": "member",
+      "phone": "01700-000000"
+    }
+  ],
+  "bankAccounts": [
+    {
+      "id": "BANK-01",
+      "bankName": "ইসলামী ব্যাংক বাংলাদেশ পিএলসি",
+      "branchName": "বায়েজিদ বোস্তামী শাখা, চট্টগ্রাম",
+      "accountNumber": "20501230200456100",
+      "accountType": "current",
+      "openingBalance": 0,
+      "routingNumber": "125150550",
+      "active": true
+    },
+    {
+      "id": "BANK-02",
+      "bankName": "ডাচ্-বাংলা ব্যাংক পিএলসি",
+      "branchName": "মুরাদপুর শাখা, চট্টগ্রাম",
+      "accountNumber": "1151200089765001",
+      "accountType": "savings",
+      "openingBalance": 0,
+      "routingNumber": "090150770",
+      "active": true
+    }
+  ],
+  "funds": [
+    {
+      "id": "FND-GEN",
+      "fundName": "General Fund",
+      "fundNameBn": "সাধারণ তহবিল",
+      "code": "GEN-01",
+      "openingBalance": 0,
+      "description": "সমিতির সাধারণ কার্যক্রম ও নিয়মিত লেনদেনের তহবিল"
+    },
+    {
+      "id": "FND-WEL",
+      "fundName": "Welfare Fund",
+      "fundNameBn": "সদস্য কল্যাণ তহবিল",
+      "code": "WEL-02",
+      "openingBalance": 0,
+      "description": "সদস্যদের আপদকালীন সহায়তা ও কল্যাণ অনুদান তহবিল"
+    },
+    {
+      "id": "FND-DEV",
+      "fundName": "Development Fund",
+      "fundNameBn": "উন্নয়ন তহবিল",
+      "code": "DEV-03",
+      "openingBalance": 0,
+      "description": "সমিতির প্রাতিষ্ঠানিক বিস্তার ও অবকাঠামোগত উন্নয়ন তহবিল"
+    },
+    {
+      "id": "FND-CDF",
+      "fundName": "Cooperative Development Fund (CDF)",
+      "fundNameBn": "সমবায় উন্নয়ন তহবিল (সিডিএফ)",
+      "code": "CDF-04",
+      "openingBalance": 0,
+      "description": "সরকারি সমবায় নীতিমালা অনুযায়ী ৩% বাধ্যতামূলক সঞ্চিতি"
+    }
+  ],
+  "ruleVersions": [
+    {
+      "id": "RULE-1790598198155",
+      "productType": "dps",
+      "ruleName": "DPS Profit Rate 8.5% p.a.",
+      "ruleValue": "8.5",
+      "effectiveDate": "2026-09-28",
+      "version": 2,
+      "approvedBy": "Super Admin",
+      "createdAt": "2026-09-28T12:23:18.155Z"
+    },
+    {
+      "id": "RULE-DPS",
+      "productType": "dps",
+      "ruleName": "DPS Profit Rate 8.5% p.a.",
+      "ruleValue": "8.5",
+      "effectiveDate": "2024-01-01",
+      "version": 1,
+      "approvedBy": "USR-ADMIN",
+      "createdAt": "2026-09-28T12:10:03.381Z",
+      "endDate": "2026-09-28"
+    },
+    {
+      "id": "RULE-FDR",
+      "productType": "fdr",
+      "ruleName": "FDR Profit Rate 9.5% p.a.",
+      "ruleValue": "9.5",
+      "effectiveDate": "2024-01-01",
+      "version": 1,
+      "approvedBy": "USR-ADMIN",
+      "createdAt": "2026-09-28T12:10:03.381Z"
+    },
+    {
+      "id": "RULE-LOAN",
+      "productType": "loan",
+      "ruleName": "Micro Enterprise Loan Service Charge 12%",
+      "ruleValue": "12",
+      "effectiveDate": "2024-01-01",
+      "version": 1,
+      "approvedBy": "USR-ADMIN",
+      "createdAt": "2026-09-28T12:10:03.381Z"
+    },
+    {
+      "id": "RULE-SHARE",
+      "productType": "savings",
+      "ruleName": "Share Value per unit BDT 100",
+      "ruleValue": "100",
+      "effectiveDate": "2024-01-01",
+      "version": 1,
+      "approvedBy": "USR-ADMIN",
+      "createdAt": "2026-09-28T12:10:03.381Z"
+    }
+  ],
+  "members": [],
+  "nominees": [],
+  "guarantors": [],
+  "savingsAccounts": [],
+  "savingsTransactions": [],
+  "shareAccounts": [],
+  "shareTransactions": [],
+  "dpsAccounts": [],
+  "dpsTransactions": [],
+  "fdrAccounts": [],
+  "fdrTransactions": [],
+  "loanApplications": [],
+  "loanAccounts": [],
+  "loanPayments": [],
+  "collections": [],
+  "cashTransactions": [],
+  "bankTransactions": [],
+  "bankReconciliations": [],
+  "expenses": [],
+  "incomes": [],
+  "fundTransactions": [],
+  "documents": [],
+  "crmActivities": [],
+  "complaints": [],
+  "notices": [
+    {
+      "id": "NOT-01",
+      "title": "মরিয়ম সমিতি ম্যানেজমেন্ট সিস্টেমে স্বাগতম",
+      "description": "মরিয়ম কর্মজীবী সমবায় সমিতি লিঃ (রেজি নং: ১৩৬২১) এর পূর্ণাঙ্গ ডিজিটাল সফটওয়্যার কার্যক্রম আনুষ্ঠানিকভাবে চালু হলো। সকল দৈনন্দিন লেনদেন ক্যাশ ও ব্যাংক বহিভুক্ত হবে।",
+      "category": "general",
+      "targetAudience": "all",
+      "publishDate": "2026-09-28",
+      "status": "published",
+      "createdBy": "USR-ADMIN",
+      "createdAt": "2026-09-28T12:10:03.381Z"
+    }
+  ],
+  "dailyClosings": [],
+  "monthlyClosings": [],
+  "corrections": [],
+  "auditLogs": [
+    {
+      "id": "AUD-1790598198155-709",
+      "timestamp": "2026-09-28T12:23:18.155Z",
+      "userId": "USR-ADMIN",
+      "userName": "Admin",
+      "userRole": "super_admin",
+      "action": "RULE_VERSION_UPDATED",
+      "module": "settings",
+      "recordId": "RULE-1790598198155",
+      "details": "আর্থিক পলিসি রুল ভার্সন আপডেট: dps -> 8.5 (ভার্সন v2.0)"
+    },
+    {
+      "id": "AUD-1790598189060-130",
+      "timestamp": "2026-09-28T12:23:09.060Z",
+      "userId": "USR-ADMIN",
+      "userName": "Admin",
+      "userRole": "super_admin",
+      "action": "SETTINGS_ORG_UPDATED",
+      "module": "settings",
+      "recordId": "ORG",
+      "details": "প্রতিষ্ঠানের প্রোফাইল সেটিংস আপডেট করা হয়েছে (মরিয়ম কর্মজীবী সমবায় সমিতি লিঃ)",
+      "oldValue": "{\"name\":\"মরিয়ম কর্মজীবী সমবায় সমিতি লিঃ\",\"nameBn\":\"মরিয়ম কর্মজীবী সমবায় সমিতি লিঃ\",\"registrationNo\":\"13621\",\"founderChairman\":\"শহীদুল ইসলাম\",\"officeAddress\":\"Al-Baraka Heights, Bayezid Link Road, Arefin Nagar, Bayezid Bostami, Chattogram\",\"phone\":\"01781-593032\",\"website\":\"mariumfoundationbd.com\",\"establishedDate\":\"2018-01-01\"}",
+      "newValue": "{\"name\":\"মরিয়ম কর্মজীবী সমবায় সমিতি লিঃ\",\"nameBn\":\"মরিয়ম কর্মজীবী সমবায় সমিতি লিঃ\",\"registrationNo\":\"13621\",\"founderChairman\":\"শহীদুল ইসলাম\",\"officeAddress\":\"Al-Baraka Heights, Bayezid Link Road, Arefin Nagar, Bayezid Bostami, Chattogram\",\"phone\":\"01781-593032\",\"website\":\"mariumfoundationbd.com\",\"establishedDate\":\"2018-01-01\"}"
+    },
+    {
+      "id": "AUD-INIT",
+      "timestamp": "2026-09-28T12:10:03.381Z",
+      "userId": "USR-ADMIN",
+      "userName": "শহীদুল ইসলাম (চেয়ারম্যান)",
+      "userRole": "super_admin",
+      "action": "SYSTEM_INITIALIZED",
+      "module": "system",
+      "recordId": "SYS",
+      "details": "মরিয়ম সমিতি ম্যানেজমেন্ট সিস্টেম প্রাথমিক ডাটাবেজ সেশন সফলভাবে শুরু হয়েছে।"
+    }
+  ]
+}
